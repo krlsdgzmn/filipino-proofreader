@@ -1,9 +1,8 @@
 import json
 import logging
-from string import ascii_lowercase, ascii_uppercase
+from string import ascii_uppercase
 from time import sleep
 from typing import Dict, Union
-
 from requests_html import HTMLSession, HTML, Element
 
 logging.basicConfig(level=logging.INFO)
